@@ -3,12 +3,13 @@ import Hero from "./comps/Hero";
 import Footer from "./comps/Footer";
 import AnleitungenPage from "./pages/AnleitungenPage";
 import WhatsAppUebersichtPage from "./pages/WhatsAppUebersichtPage";
+import WhatsAppVideokonferenzPage from "./pages/WhatsAppVideoKonferenzPage";
 
 function App() {
   return (
     <div>
       <Navigation />
-      <WhatsAppUebersichtPage />
+      <WhatsAppVideokonferenzPage />
       <Footer />
     </div>
   );
