@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techlabs-seniora-react/static/css/main.39633608.css",
+    "main.js": "/techlabs-seniora-react/static/js/main.7f88eb21.js",
+    "static/media/hero.png": "/techlabs-seniora-react/static/media/hero.4033ce93cfe64f0071f7.png",
+    "static/media/whatsapp5.png": "/techlabs-seniora-react/static/media/whatsapp5.674e95f679808eed4199.png",
+    "static/media/whatsapp6.png": "/techlabs-seniora-react/static/media/whatsapp6.674e95f679808eed4199.png",
+    "static/media/whatsapp3.png": "/techlabs-seniora-react/static/media/whatsapp3.d7e3e3505f2566dda960.png",
+    "static/media/whatsapp4.png": "/techlabs-seniora-react/static/media/whatsapp4.ab355b9390f83c97768d.png",
+    "static/media/whatsapp2.png": "/techlabs-seniora-react/static/media/whatsapp2.e707fda8885ca26c9905.png",
+    "static/media/whatsapp1.png": "/techlabs-seniora-react/static/media/whatsapp1.5f1f193c0a5217df1fb2.png",
+    "static/media/WhatsApp.svg": "/techlabs-seniora-react/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
+    "static/media/zoom.svg": "/techlabs-seniora-react/static/media/zoom.fde16a359263e9b545e67f18167b95b2.svg",
+    "static/media/bahn.svg": "/techlabs-seniora-react/static/media/bahn.a5956e1978093b197f2bc5160ed6aca9.svg",
+    "index.html": "/techlabs-seniora-react/index.html",
+    "main.39633608.css.map": "/techlabs-seniora-react/static/css/main.39633608.css.map",
+    "main.7f88eb21.js.map": "/techlabs-seniora-react/static/js/main.7f88eb21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39633608.css",
+    "static/js/main.7f88eb21.js"
+  ]
+}
