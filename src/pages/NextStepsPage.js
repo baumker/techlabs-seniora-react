@@ -28,7 +28,7 @@ function NextStepsPage() {
             <ProgressBar now={now} label={`${now}%`} />
           </Col>
           <h2 className="mt-4">Nächste Schritte</h2>
-          <Col className="col-6">
+          <Col className="col-lg-6">
             <ListGroup>
               <ListGroup.Item action>
                 Überarbeitung der Screenshots und Beschreibungen

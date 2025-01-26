@@ -26,7 +26,7 @@ function WhatsAppUebersichtPage() {
       </Container>
       <Container className="col-xxl-8 px-4 ">
         <Row>
-          <Col className="col-4">
+          <Col className="col-lg-4">
             <ListGroup>
               <ListGroup.Item>Einen Kontakt hinzufügen</ListGroup.Item>
               <ListGroup.Item action as={Link} to="/whatsapp/videokonferenz">
