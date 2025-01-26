@@ -23,6 +23,16 @@ function Hero() {
           <Button variant="primary" as={Link} to="/anleitungen">
             Zu den Anleitungen
           </Button>
+          <br />
+          <br />
+          <Button
+            variant="secondary"
+            as={Link}
+            to="/next-steps"
+            className="text-white"
+          >
+            Milestone Recap
+          </Button>
         </Col>
         <Col>
           <Image src={HeroImage} width={400} height={400} />

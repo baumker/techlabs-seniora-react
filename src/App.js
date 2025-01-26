@@ -1,3 +1,4 @@
+import NextStepsPage from "./pages/NextStepsPage";
 import StartPage from "./pages/StartPage";
 import AnleitungenPage from "./pages/AnleitungenPage";
 import WhatsAppUebersichtPage from "./pages/WhatsAppUebersichtPage";
@@ -9,6 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/next-steps" element={<NextStepsPage />} />
         <Route path="/" element={<StartPage />} />
         <Route path="/anleitungen" element={<AnleitungenPage />} />
         <Route path="/whatsapp" element={<WhatsAppUebersichtPage />} />
@@ -18,16 +20,6 @@ function App() {
         />
       </Routes>
     </BrowserRouter>
-
-    // <div>
-    //   <Navigation />
-    //   {/* <Hero /> */}
-    //   {/* <AnleitungenPage /> */}
-    //   {/* <WhatsAppUebersichtPage /> */}
-    //   <WhatsAppVideokonferenzPage />
-
-    //   <Footer />
-    // </div>
   );
 }
 

@@ -32,13 +32,13 @@ function WhatsAppUebersichtPage() {
               <ListGroup.Item action as={Link} to="/whatsapp/videokonferenz">
                 Eine Videokonferenz durchführen
               </ListGroup.Item>
-              <ListGroup.Item action as={Link} to="/whatsapp/#">
+              <ListGroup.Item as={Link} to="/whatsapp/#">
                 Die Chat-Funktion sehen
               </ListGroup.Item>
-              <ListGroup.Item action as={Link} to="/whatsapp/#">
+              <ListGroup.Item as={Link} to="/whatsapp/#">
                 Sprachnachricht senden
               </ListGroup.Item>
-              <ListGroup.Item action as={Link} to="/whatsapp/#">
+              <ListGroup.Item as={Link} to="/whatsapp/#">
                 Videos und Bilder teilen
               </ListGroup.Item>
             </ListGroup>

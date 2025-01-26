@@ -23,8 +23,11 @@ function Footer() {
             <Nav.Link as={Link} to="/anleitungen">
               Anleitungen
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
-              Kontakt
+            <Nav.Link as={Link} to="/#">
+              Impressum
+            </Nav.Link>
+            <Nav.Link as={Link} to="/#">
+              Datenschutz
             </Nav.Link>
           </Nav>
         </Container>
