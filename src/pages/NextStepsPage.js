@@ -35,6 +35,10 @@ function NextStepsPage() {
                 {newBadge("Update")}
               </ListGroup.Item>
               <ListGroup.Item action>
+                Webseite mobil optimieren
+                {newBadge("Update")}
+              </ListGroup.Item>
+              <ListGroup.Item action>
                 Weitere Anleitungen hinzufügen
                 {newBadge("New", "success")}
               </ListGroup.Item>

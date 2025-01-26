@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/techlabs-seniora-react">
       <Routes>
         <Route path="/next-steps" element={<NextStepsPage />} />
         <Route path="/" element={<StartPage />} />

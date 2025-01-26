@@ -13,23 +13,26 @@ function Footer() {
         className="d-flex justify-content-center flex-column mt-auto"
       >
         <Container className="d-flex justify-content-center flex-column">
-          <Nav>
-            <Nav.Link as={Link} to="/">
-              Start
-            </Nav.Link>
-            <Nav.Link as={Link} to="/about">
-              Über uns
-            </Nav.Link>
-            <Nav.Link as={Link} to="/anleitungen">
-              Anleitungen
-            </Nav.Link>
-            <Nav.Link as={Link} to="/#">
-              Impressum
-            </Nav.Link>
-            <Nav.Link as={Link} to="/#">
-              Datenschutz
-            </Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
+              <Nav.Link as={Link} to="/">
+                Start
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                Über uns
+              </Nav.Link>
+              <Nav.Link as={Link} to="/anleitungen">
+                Anleitungen
+              </Nav.Link>
+              <Nav.Link as={Link} to="/#">
+                Impressum
+              </Nav.Link>
+              <Nav.Link as={Link} to="/#">
+                Datenschutz
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
         <Container className="d-flex justify-content-center">
           <div className="text-center">

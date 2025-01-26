@@ -34,7 +34,7 @@ function Hero() {
             Milestone Recap
           </Button>
         </Col>
-        <Col>
+        <Col className="order-1 order-md-2">
           <Image src={HeroImage} width={400} height={400} />
         </Col>
       </Row>
