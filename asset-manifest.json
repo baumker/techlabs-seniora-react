@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techlabs-seniora-react/static/css/main.39633608.css",
-    "main.js": "/techlabs-seniora-react/static/js/main.3dfa7a6e.js",
+    "main.js": "/techlabs-seniora-react/static/js/main.aa50b450.js",
     "static/media/hero.png": "/techlabs-seniora-react/static/media/hero.4033ce93cfe64f0071f7.png",
     "static/media/whatsapp5.png": "/techlabs-seniora-react/static/media/whatsapp5.674e95f679808eed4199.png",
     "static/media/whatsapp6.png": "/techlabs-seniora-react/static/media/whatsapp6.674e95f679808eed4199.png",
@@ -14,10 +14,10 @@
     "static/media/bahn.svg": "/techlabs-seniora-react/static/media/bahn.a5956e1978093b197f2bc5160ed6aca9.svg",
     "index.html": "/techlabs-seniora-react/index.html",
     "main.39633608.css.map": "/techlabs-seniora-react/static/css/main.39633608.css.map",
-    "main.3dfa7a6e.js.map": "/techlabs-seniora-react/static/js/main.3dfa7a6e.js.map"
+    "main.aa50b450.js.map": "/techlabs-seniora-react/static/js/main.aa50b450.js.map"
   },
   "entrypoints": [
     "static/css/main.39633608.css",
-    "static/js/main.3dfa7a6e.js"
+    "static/js/main.aa50b450.js"
   ]
 }
