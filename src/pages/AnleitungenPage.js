@@ -4,6 +4,10 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
+import Navigation from "../comps/Navigation";
+import Footer from "../comps/Footer";
+import { Link } from "react-router-dom";
+
 import "./AnleitungenPage.css";
 
 import WhatsAppLogo from "../assets/WhatsApp.svg";
@@ -13,6 +17,7 @@ import BahnLogo from "../assets/bahn.svg";
 function AnleitungenPage() {
   return (
     <div>
+      <Navigation />
       <Container className="col-xxl-8 px-4 py-5">
         <h1>Ich interessiere mich für</h1>
         <p>
@@ -42,7 +47,9 @@ function AnleitungenPage() {
                   Einfache WhatsApp-Anleitungen für Senioren, um mit Familie und
                   Freunden in Kontakt zu bleiben!
                 </Card.Text>
-                <Button variant="primary">Zu den Anleitungen</Button>
+                <Button variant="primary" as={Link} to="/whatsapp">
+                  Zu den Anleitungen
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -55,7 +62,9 @@ function AnleitungenPage() {
                   Entdecken Sie leicht verständliche Anleitungen für Zoom, um
                   mühelos an Videoanrufen und Online-Meetings teilzunehmen!
                 </Card.Text>
-                <Button variant="primary">Zu den Anleitungen</Button>
+                <Button variant="primary" as={Link} to="/zoom">
+                  Zu den Anleitungen
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -68,12 +77,15 @@ function AnleitungenPage() {
                   Nutzen Sie unsere einfachen Anleitungen für die Bahn App, um
                   Ihre Reisen bequem zu planen und Tickets zu buchen!
                 </Card.Text>
-                <Button variant="primary">Zu den Anleitungen</Button>
+                <Button variant="primary" as={Link} to="/bahn">
+                  Zu den Anleitungen
+                </Button>
               </Card.Body>
             </Card>
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }

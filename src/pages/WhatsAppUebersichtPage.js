@@ -3,9 +3,14 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import Navigation from "../comps/Navigation";
+import Footer from "../comps/Footer";
+import { Link } from "react-router-dom";
+
 function WhatsAppUebersichtPage() {
   return (
     <div>
+      <Navigation />
       <Container className="col-xxl-8 px-4 py-5">
         <h1>Was wollen Sie lernen?</h1>
         <p>
@@ -23,25 +28,24 @@ function WhatsAppUebersichtPage() {
         <Row>
           <Col className="col-4">
             <ListGroup>
-              <ListGroup.Item action href="#link1">
-                Einen Kontakt hinzufügen
-              </ListGroup.Item>
-              <ListGroup.Item action href="#link2">
+              <ListGroup.Item>Einen Kontakt hinzufügen</ListGroup.Item>
+              <ListGroup.Item action as={Link} to="/whatsapp/videokonferenz">
                 Eine Videokonferenz durchführen
               </ListGroup.Item>
-              <ListGroup.Item action href="#link4">
+              <ListGroup.Item action as={Link} to="/whatsapp/#">
                 Die Chat-Funktion sehen
               </ListGroup.Item>
-              <ListGroup.Item action href="#link5">
+              <ListGroup.Item action as={Link} to="/whatsapp/#">
                 Sprachnachricht senden
               </ListGroup.Item>
-              <ListGroup.Item action href="#link6">
+              <ListGroup.Item action as={Link} to="/whatsapp/#">
                 Videos und Bilder teilen
               </ListGroup.Item>
             </ListGroup>
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }

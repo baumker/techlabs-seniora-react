@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import HeroImage from "../assets/hero.png";
+import { Outlet, Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -19,12 +20,15 @@ function Hero() {
             Verbindungen und fördern die Selbstständigkeit im Alltag. Lassen Sie
             uns gemeinsam die digitale Zukunft gestalten!
           </p>
-          <Button variant="primary">Zu den Anleitungen</Button>
+          <Button variant="primary" as={Link} to="/anleitungen">
+            Zu den Anleitungen
+          </Button>
         </Col>
         <Col>
           <Image src={HeroImage} width={400} height={400} />
         </Col>
       </Row>
+      <Outlet />
     </Container>
   );
 }

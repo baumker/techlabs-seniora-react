@@ -1,35 +1,40 @@
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
-    <footer className="py-3 my-4">
-      <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
-            Start
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
-            Über uns
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
-            Anleitungen
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
-            Impressum
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
-            Datenschutz
-          </a>
-        </li>
-      </ul>
-      <p class="text-center text-muted">© 2024 Seniora</p>
-    </footer>
+    <div className="fixed-bottom">
+      <Navbar
+        bg="light"
+        expand="lg"
+        className="d-flex justify-content-center flex-column mt-auto"
+      >
+        <Container className="d-flex justify-content-center flex-column">
+          <Nav>
+            <Nav.Link as={Link} to="/">
+              Start
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              Über uns
+            </Nav.Link>
+            <Nav.Link as={Link} to="/anleitungen">
+              Anleitungen
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Kontakt
+            </Nav.Link>
+          </Nav>
+        </Container>
+        <Container className="d-flex justify-content-center">
+          <div className="text-center">
+            <p>&copy; {new Date().getFullYear()} Seniora</p>
+          </div>
+        </Container>
+      </Navbar>
+    </div>
   );
 }
 

@@ -3,6 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
+import Navigation from "../comps/Navigation";
+import Footer from "../comps/Footer";
+
 import "./WhatsAppVideoKonferenzPage.css";
 
 import { useState } from "react";
@@ -112,6 +115,7 @@ function WhatsAppVideokonferenzPage() {
 
   return (
     <div>
+      <Navigation />
       <Container className="col-xxl-8 px-4 py-5">
         <Row>
           <Col className="gap-3">
@@ -123,6 +127,7 @@ function WhatsAppVideokonferenzPage() {
           <Col>{bild(anleitungSchritt)}</Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
