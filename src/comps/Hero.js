@@ -25,14 +25,6 @@ function Hero() {
           </Button>
           <br />
           <br />
-          <Button
-            variant="secondary"
-            as={Link}
-            to="/next-steps"
-            className="text-white"
-          >
-            Milestone Recap
-          </Button>
         </Col>
         <Col className="order-1 order-md-2">
           <Image src={HeroImage} width={400} height={400} />
